@@ -1,0 +1,24 @@
+{
+  "name": "product-lister",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "push": "shopify app push",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy",
+    "info": "shopify app info"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "author": "GigaByte",
+  "private": true,
+  "workspaces": [
+    "extensions/*",
+    "web",
+    "web/frontend"
+  ]
+}
